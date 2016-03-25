@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3003D6541C8F5842000C4DA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003D6531C8F5842000C4DA0 /* AppDelegate.swift */; };
+		3003D6561C8F5842000C4DA0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003D6551C8F5842000C4DA0 /* ViewController.swift */; };
+		3003D6591C8F5842000C4DA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3003D6571C8F5842000C4DA0 /* Main.storyboard */; };
+		3003D65B1C8F5842000C4DA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3003D65A1C8F5842000C4DA0 /* Assets.xcassets */; };
+		3003D65E1C8F5842000C4DA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3003D65C1C8F5842000C4DA0 /* LaunchScreen.storyboard */; };
+		3003D6681C8F6BB5000C4DA0 /* TodoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003D6671C8F6BB5000C4DA0 /* TodoList.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3003D6501C8F5842000C4DA0 /* iTahDoodleSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTahDoodleSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3003D6531C8F5842000C4DA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3003D6551C8F5842000C4DA0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3003D6581C8F5842000C4DA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3003D65A1C8F5842000C4DA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3003D65D1C8F5842000C4DA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3003D65F1C8F5842000C4DA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3003D6671C8F6BB5000C4DA0 /* TodoList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TodoList.swift; path = ../TodoList.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3003D64D1C8F5842000C4DA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3003D6471C8F5842000C4DA0 = {
+			isa = PBXGroup;
+			children = (
+				3003D6521C8F5842000C4DA0 /* iTahDoodleSwift */,
+				3003D6511C8F5842000C4DA0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3003D6511C8F5842000C4DA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3003D6501C8F5842000C4DA0 /* iTahDoodleSwift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3003D6521C8F5842000C4DA0 /* iTahDoodleSwift */ = {
+			isa = PBXGroup;
+			children = (
+				3003D6671C8F6BB5000C4DA0 /* TodoList.swift */,
+				3003D6531C8F5842000C4DA0 /* AppDelegate.swift */,
+				3003D6551C8F5842000C4DA0 /* ViewController.swift */,
+				3003D6571C8F5842000C4DA0 /* Main.storyboard */,
+				3003D65A1C8F5842000C4DA0 /* Assets.xcassets */,
+				3003D65C1C8F5842000C4DA0 /* LaunchScreen.storyboard */,
+				3003D65F1C8F5842000C4DA0 /* Info.plist */,
+			);
+			path = iTahDoodleSwift;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3003D64F1C8F5842000C4DA0 /* iTahDoodleSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3003D6621C8F5842000C4DA0 /* Build configuration list for PBXNativeTarget "iTahDoodleSwift" */;
+			buildPhases = (
+				3003D64C1C8F5842000C4DA0 /* Sources */,
+				3003D64D1C8F5842000C4DA0 /* Frameworks */,
+				3003D64E1C8F5842000C4DA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iTahDoodleSwift;
+			productName = iTahDoodleSwift;
+			productReference = 3003D6501C8F5842000C4DA0 /* iTahDoodleSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3003D6481C8F5842000C4DA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Roman Ustiantcev";
+				TargetAttributes = {
+					3003D64F1C8F5842000C4DA0 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = NVMU6WZ9AZ;
+					};
+				};
+			};
+			buildConfigurationList = 3003D64B1C8F5842000C4DA0 /* Build configuration list for PBXProject "iTahDoodleSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3003D6471C8F5842000C4DA0;
+			productRefGroup = 3003D6511C8F5842000C4DA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3003D64F1C8F5842000C4DA0 /* iTahDoodleSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3003D64E1C8F5842000C4DA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3003D65E1C8F5842000C4DA0 /* LaunchScreen.storyboard in Resources */,
+				3003D65B1C8F5842000C4DA0 /* Assets.xcassets in Resources */,
+				3003D6591C8F5842000C4DA0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3003D64C1C8F5842000C4DA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3003D6681C8F6BB5000C4DA0 /* TodoList.swift in Sources */,
+				3003D6561C8F5842000C4DA0 /* ViewController.swift in Sources */,
+				3003D6541C8F5842000C4DA0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3003D6571C8F5842000C4DA0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3003D6581C8F5842000C4DA0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3003D65C1C8F5842000C4DA0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3003D65D1C8F5842000C4DA0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3003D6601C8F5842000C4DA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3003D6611C8F5842000C4DA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3003D6631C8F5842000C4DA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iTahDoodleSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ra-portfolio.iTahDoodleSwift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3003D6641C8F5842000C4DA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iTahDoodleSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ra-portfolio.iTahDoodleSwift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3003D64B1C8F5842000C4DA0 /* Build configuration list for PBXProject "iTahDoodleSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3003D6601C8F5842000C4DA0 /* Debug */,
+				3003D6611C8F5842000C4DA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3003D6621C8F5842000C4DA0 /* Build configuration list for PBXNativeTarget "iTahDoodleSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3003D6631C8F5842000C4DA0 /* Debug */,
+				3003D6641C8F5842000C4DA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3003D6481C8F5842000C4DA0 /* Project object */;
+}
